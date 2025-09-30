@@ -11,7 +11,7 @@ function searchStation() {
 
     // Validate input
     if (!callsign) {
-        showError('Please enter a call sign (e.g., WMMR, KYW, WXPN)');
+        showError('Please enter a call sign (e.g., WMMR, KYerW, WXPN)');
         return;
     }
 
